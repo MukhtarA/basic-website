@@ -19,6 +19,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    @livewireStyles
 </head>
 <body class="font-sans bg-gray-900 text-white">
         @include('inc.messages')
@@ -34,5 +35,6 @@
 
 
     </div>
+        @livewireScripts
 </body>
 </html>
